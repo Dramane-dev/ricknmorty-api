@@ -5,7 +5,7 @@
                                 
 Ce projet consiste à la création d'un blogge en React. Le blogge est structuré en article comme dans un site e-commerce avec des données récupérées de l'API JSONPlaceholder : https://jsonplaceholder.typicode.com/
 
-Ce projet vise à explorer React-Router, l'utilisation d'une API, mais aussi d'apprendre une façon de structurer son Front-end et son Back-end !
+Ce projet vise à explorer la création d'une application ReactJs, React-Router, l'utilisation d'une API, mais aussi d'apprendre une façon de structurer son Front-end et son Back-end !
 
 Avant de commencer un projet web, il est intéréssant d'avoir un visuel de ce que l'on souhaite développer, pour ma part c'est ainsi que je fonctionne.
 Cela peut commencer d'un pseudo-code (algo) ou encore d'une maquette déssiner à l'aide d'outils spécifique (AdobeXD) ou simplement à l'aide d'un crayon et d'un papier  😃
