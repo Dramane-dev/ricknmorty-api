@@ -1,6 +1,6 @@
-                                **********  Projet React bibliothèque Rick And Morty  ********** 
-                                    ⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️                                 ⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️
-                                              ⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️
+                           **********  Projet React bibliothèque Rick And Morty  ********** 
+                               ⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️                                 ⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️
+                                         ⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️
                                 
                                 
 Création d'une bibliothèque Rick et Morty en React. La bibliothèque est structuré en article comme dans un site e-commerce avec des données récupérées de l'API rickandmorty : https://rickandmortyapi.com/
