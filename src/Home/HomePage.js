@@ -1,36 +1,49 @@
-import React, { Component } from 'react'
-// import { Link } from "react-router-dom";
-import Post from './Post'
-import Loader from '../includes/Loader'
+import React, { useState, useEffect } from 'react'
+import axios from 'axios';
+import Character from './Character.jsx';
 
-class HomePage extends Component {
-    constructor() {
-        super()
+function App() {
+    const [url, setUrl] = useState('https://rickandmortyapi.com/api/character/?name=')
+    const [info, setInfo] = useState({})
+    const [results, setResults] = useState([])
+    const [search, setSearch] = useState('')
+  
+    useEffect(() => {
+      console.log('url', url)
+      console.log('info', info)
+      console.log('results', results)
+      console.log('search', search)
+    }, [url, info, results, search])
 
-        this.state = {
-            posts: []
-        }
-    }
 
-    componentDidMount() {
-        fetch('https://jsonplaceholder.typicode.com/posts')
-            .then((Response) => Response.json())
-            .then((Response) => setTimeout(() => this.setState({posts: Response}), 2000 ))
-    }
-
-    render() {
-    let posts = this.state.posts.map((element, key) => 
-            <Post key={key} id={element.id} title={element.title} description={element.body} />
-        )
-
-        return (
-            <div>
-                <div className="container articles-container">
-                    { (posts.length === 0) ? <Loader /> : posts} 
-                </div>
+    useEffect(() => {
+      axios.get(`${url}${search}`)
+        .then((result) => {
+          setInfo(result.data.info)
+          setResults(result.data.results)
+        })
+        .catch((error) => {
+          console.log(error)
+        })
+    }, [search])
+  
+  
+    return (
+        <>
+            <header className="search">
+                <p>Rechercher : </p><input className='searchBar' onChange={(e) => {
+                    setSearch(e.target.value)
+                }}
+                    value={search}
+                    type='text' />
+            </header>
+            <div className="container character-container">
+                { results.map((result, index) => (
+                  <Character key={index} result={result} />
+                ))}
             </div>
-        )
-    }
-}
+        </>
+    );
+  }
 
-export default HomePage
+export default App

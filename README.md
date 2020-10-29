@@ -1,18 +1,11 @@
-                                **********  Projet React Blogger avec API  ********** 
-                                ⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️                                 ⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️
-                                          ⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️
+                                **********  Projet React bibliothèque Rick And Morty  ********** 
+                                    ⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️                                 ⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️
+                                              ⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️⚛️
                                 
                                 
-Ce projet consiste à la création d'un blogge en React. Le blogge est structuré en article comme dans un site e-commerce avec des données récupérées de l'API JSONPlaceholder : https://jsonplaceholder.typicode.com/
+Création d'une bibliothèque Rick et Morty en React. La bibliothèque est structuré en article comme dans un site e-commerce avec des données récupérées de l'API rickandmorty : https://rickandmortyapi.com/
 
 Ce projet vise à explorer la création d'une application ReactJs, React-Router, l'utilisation d'une API, mais aussi d'apprendre une façon de structurer son Front-end et son Back-end !
-
-Avant de commencer un projet web, il est intéréssant d'avoir un visuel de ce que l'on souhaite développer, pour ma part c'est ainsi que je fonctionne.
-Cela peut commencer d'un pseudo-code (algo) ou encore d'une maquette déssiner à l'aide d'outils spécifique (AdobeXD) ou simplement à l'aide d'un crayon et d'un papier  😃
-
-Je procède ensuite à une phase d'intégration. Je transforme ma maquette en une véritable structure web html/css pour commencer. Après avoir réussi à faire de mon visuel un résultat proche de la maquette, je passe aux techno dont j'aurais besoin pour réaliser mon projet. 
-
-Avant de réaliser ce projet, j'ai procédé à ces différentes étapes. 
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

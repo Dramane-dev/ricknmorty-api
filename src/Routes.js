@@ -1,9 +1,8 @@
 import React from 'react'
-
 import HomePage from './Home/HomePage'
-import PostPage from './Post/PostPage'
 import Header from './includes/Header'
 import { BrowserRouter as Router, Route } from "react-router-dom";
+import CharacterPage from './Post/Character';
 
 // Compononent 
 const Routes = () => (
@@ -11,7 +10,7 @@ const Routes = () => (
         <div>
             <Header />
             <Route exact path="/" component={HomePage}/>
-            <Route path="/post/:id" component={PostPage}/>
+            <Route path="/character/:id" component={CharacterPage}/>
         </div>
     </Router>
 )

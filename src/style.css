@@ -33,6 +33,7 @@ header {
     padding: 25px 70px;
 }
 
+
 .logo {
     font-weight: bold;
     font-size: 24px;
@@ -40,76 +41,51 @@ header {
 
 /* ------ HOME ------*/
 
-.articles-container {
+.character-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.article {
-    width: 30%;
+article {
+    width: 33%;
     padding: 32px 40px;
     cursor: pointer;
     box-sizing: border-box;
 }
 
-.article:hover {
+article:hover {
     background-color: #1D2630;
     border-radius: 7px;
 }
 
-.article h2 {
+article h2 {
     margin-top: 0;
 }
 
 /* ------ POST ------*/
 
-.post-container {
+.status_icon {
+    height: 0.5rem;
+    width: 0.5rem;
+    margin-right: 0.375rem;
+    background: rgb(85, 204, 68);
+    border-radius: 50%;
+}
+.character-container {
     margin-top: 110px;
 }
 
-.post-container h1 {
+.character-container h1 {
     text-align: center;
 }
 
-.post-container h2 {
+.character-container h2 {
     text-align: center;
 }
 
-.post-container p {
+.character-container p {
     text-align: center;
-}
-
-.comments-container h2{
-    text-align: left;
-}
-
-.comment-title {
-    margin-top: 50px 0 30px;
-    font-size: 18px;
-}
-
-.comment {
-    margin-bottom: 30px;
-    display: flex;
-    align-items: center;
-}
-
-.comment h3{
-    text-align: left;
-    color: #7F8D9C;
-    font-size: 15px;
-    margin-left: 22px;
-}
-
-.comment p {
-    text-align: left;
-    font-size: 14px;
-    margin-left: 22px;
-}
-
-.container img {
-    width: 80px;
 }
 
 
